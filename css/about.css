@@ -2,7 +2,8 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:700");
 html,
 body {
-  background-color: #c41e3a;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(/images/phipsibackground.png);
 }
 p {
   font-family: "Playfair Display", serif;
@@ -31,7 +32,7 @@ img {
 }
 .image-container {
   height: 100%;
-  margin-left: 100px;
+  margin-left: 60px;
   position: absolute;
 }
 .text-container {
@@ -50,7 +51,6 @@ img {
   width: 300px;
 }
 
-
 .sub-title {
   position: absolute;
   height: 100px;
@@ -67,7 +67,6 @@ img {
   bottom: 0;
   left: 45px;
 }
-
 
 .p-container {
   font-family: "Slabo 27px", serif;
@@ -98,7 +97,8 @@ img {
   top: 0;
   bottom: 0;
   left: 0;
-  background-color: #566732;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(/images/phipsibackground.png);
   height: 100%;
   width: 45%;
   border-right-style: solid;
