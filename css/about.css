@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display|Slabo+27px");
+@import url("https://fonts.googleapis.com/css?family=Raleway:700");
+html,
+body {
+  background-color: #c41e3a;
+}
+p {
+  font-family: "Playfair Display", serif;
+  color: #323232;
+  letter-spacing: 2px;
+  font-size: 60px;
+}
+img {
+  height: 100%;
+  border-right-style: solid;
+  border-right-width: 5px;
+  border-right-color: #c41e3a;
+}
+.fa-bars {
+  font-size: 25px;
+  color: #4c4c4c;
+  cursor: pointer;
+}
+.fa {
+  color: #4c4c4c;
+}
+.menu-container {
+  position: absolute;
+  left: 40px;
+  top: 30px;
+}
+.image-container {
+  height: 100%;
+  margin-left: 100px;
+  position: absolute;
+}
+.text-container {
+  height: 100%;
+  width: 400px;
+  position: absolute;
+  left: 510px;
+}
+.nav-bar {
+  margin: auto;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  right: 0;
+  height: 30px;
+  width: 300px;
+}
+
+
+.sub-title {
+  position: absolute;
+  height: 100px;
+  width: 300px;
+  top: 210px;
+  bottom: 0;
+  left: 50px;
+}
+.title-container {
+  position: absolute;
+  height: 100px;
+  width: 300px;
+  top: 170px;
+  bottom: 0;
+  left: 45px;
+}
+
+
+.p-container {
+  font-family: "Slabo 27px", serif;
+  font-size: 15px;
+  margin: auto;
+  position: absolute;
+  bottom: 80px;
+  left: 0;
+  right: 0;
+  height: 200px;
+  width: 300px;
+}
+.container {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fcfcfd;
+  width: 900px;
+  height: 600px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.background {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #566732;
+  height: 100%;
+  width: 45%;
+  border-right-style: solid;
+  border-right-width: 5px;
+  border-right-color: #c41e3a;
+}
