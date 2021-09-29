@@ -1,0 +1,299 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #fff;
+  color: #555;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+h1 {
+  padding-top: 20%;
+  font-size: 200%;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 150%;
+}
+
+h3 {
+  font-size: 80%;
+}
+
+h4 {
+  font-size: 100%;
+  text-transform: uppercase;
+  color: #C41E3A;
+  line-height: 120%;
+}
+
+h5 {
+  font-size: 60%;
+}
+
+.button {
+  padding-top: 15px;
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  padding: 15px 20px;
+  text-decoration: none;
+  font-size: 60%;
+  font-weight: 400;
+  color: #fff;
+  border: 1px solid #ecf0f1;
+  border-radius: 200px;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #ecf0f1;
+  color: #2c3e50;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(/images/charter.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+.a-logo {
+  display: block;
+  margin: 0 auto;
+  height: 150px;
+  width: auto;
+  padding-top: 10px;
+}
+
+.team-members {
+  padding: 30px 0;
+  background-color: #ececec;
+}
+
+.boxes {
+  padding-top: 40px;
+}
+
+.boxes p {
+  font-size: 50%;
+  line-height: 150%;
+  text-align: left;
+}
+
+.players {
+  display: block;
+  margin: 0 auto;
+  height: 420px;
+  width: 100%;
+  border: 3px solid #2c3e50;
+}
+
+em {
+  display: block;
+  font-size: 35%;
+  color: pink;
+}
+
+.awards {
+  overflow: hidden;
+  padding: 40px 0;
+}
+
+.aw {
+  padding: 50px 0;
+}
+
+span {
+  color: #e74c3c;
+}
+
+.right-content,
+.left-content {
+  float: left;
+  display: block;
+  width: 50%;
+  padding: 1% 2%;
+}
+.left-content {
+  border-right: 5px dotted #666;
+  text-align: right;
+  margin: 0 auto;
+}
+.left-content p {
+  margin: 150px 0 0;
+}
+.right-content p {
+  margin: 80px 0 150px;
+}
+
+.achieve p {
+  font-size: 40%;
+
+  -webkit-transition: all 0.7s ease-in-out;
+  -moz-transition: all 0.7 ease-in-out;
+  -ms-transition: all 0.7s ease-in-out;
+  -o-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+}
+
+.left-content .more-padding {
+  padding-right: 100px;
+}
+
+.right-content .more-padding {
+  padding-left: 100px;
+}
+
+footer {
+  background-color: #1d1d1d;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.copyright {
+  padding: 50px 0;
+}
+
+.copyright p {
+  font-size: 50%;
+  color: #fff;
+  line-height: 150%;
+}
+
+/*Phones Portrait*/
+@media screen and (max-width: 29.938em) {
+  h1 {
+    padding-top: 60%;
+    font-size: 140%;
+    font-weight: 400;
+  }
+
+  h2 {
+    font-size: 100%;
+    font-weight: 400;
+    line-height: 100%;
+  }
+
+  h3 {
+    font-size: 80%;
+    font-weight: 400;
+  }
+
+  h4 {
+    font-size: 55%;
+    font-weight: 300;
+    line-height: 150%;
+  }
+
+  .boxes p {
+    font-size: 45%;
+    font-weight: 300;
+    line-height: 150%;
+  }
+
+  .team-members {
+    padding: 5% 0;
+  }
+
+  .achieve p {
+    font-size: 30%;
+  }
+}
+
+/*Phones Landscapes*/
+@media screen and (min-width: 30em) and (max-width: 47.938em) {
+  h1 {
+    padding-top: 13%;
+    font-size: 100%;
+  }
+
+  h2 {
+    font-size: 100%;
+  }
+
+  h3 {
+    font-size: 50%;
+  }
+
+  h4 {
+    font-size: 50%;
+    line-height: 120%;
+  }
+
+  .boxes p {
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+    font-size: 40%;
+    line-height: 150%;
+    width: 70%;
+  }
+
+  .team-members {
+    padding: 5% 0;
+  }
+
+  .players {
+    height: 300px;
+    width: 250px;
+  }
+
+  .a-logo {
+    height: 100px;
+    width: auto;
+  }
+
+  .button {
+    padding-top: 5px;
+  }
+
+  .btn:link,
+  .btn:visited {
+    font-size: 40%;
+    padding: 3px 10px;
+  }
+
+  .header {
+    margin-top: -15px;
+  }
+}
+
+/*Tables Portrait*/
+@media screen and (min-width: 48em) and (max-width: 59.938em) {
+  h2 {
+    font-size: 110%;
+    font-weight: 500;
+    line-height: 100%;
+  }
+  h3 {
+    font-size: 70%;
+  }
+
+  .boxes p {
+    font-size: 30%;
+    font-weight: 400;
+    line-height: 150%;
+  }
+
+  .players {
+    height: 250px;
+  }
+}
