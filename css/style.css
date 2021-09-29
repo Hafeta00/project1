@@ -4,12 +4,6 @@
 }
 body {
   font-family: "Arial", sans-serif;
-}
-.wrapper {
-  width: 100%;
-  margin: auto;
-}
-header {
   background: url(/images/jmu.jpeg);
   height: 100vh;
   -webkit-background-size: cover;
@@ -17,6 +11,11 @@ header {
   background-position: center center;
   position: relative;
 }
+.wrapper {
+  width: 100%;
+  margin: auto;
+}
+
 .nav-area {
   float: right;
   list-style: none;
