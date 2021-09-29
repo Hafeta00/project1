@@ -36,7 +36,7 @@ h3 {
 h4 {
   font-size: 100%;
   text-transform: uppercase;
-  color: #C41E3A;
+  color: #c41e3a;
   line-height: 120%;
 }
 
@@ -251,7 +251,7 @@ footer {
     padding: 5% 0;
   }
 
-  .players {
+  .corn {
     height: 300px;
     width: 250px;
   }
