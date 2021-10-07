@@ -1,0 +1,37 @@
+Peer Review - Hailey Bodycoat
+
+1. What did you like about this website?
+
+    I really liked the purpose of the website and how it was created for an organization you are personally involved in. I also really liked the use of pictures of actual members of the fraternity which made the website more personal. The form on the "Interest Form" page was also executed very well and looks awesome on the page. It is very well formatted and I like how you included the ability to pick names from your contacts to fill in the form more easily.
+
+2. Describe one significant difference between your own P1 site and this person's. E.g.
+    
+    One main difference that I noticed was each page only has the ability to navigate back to the home page rather than to another page within the site. My website allows you to navigate to any other page from the current page so you don't have to continuously go back to the home page.
+
+    A. Which has a better user experience (and why)?
+
+        Personally, I think it is easier to have the ability to navigate to any other page from the current page rather than going back to the home page each time. It makes the website easier to navigate as a whole and encourages a better user experiences.
+
+    B. Which codebase do you think would be more maintainable (and why)?
+
+        I think the codebase of my project would be easier to manage since I have a single CSS file with the navigation bar criteria that I applied to each page to keep it consistent throughout my webpage. On the other hand, the navigation bar criteria didn't get included in each of your CSS files and is missing from some of the pages. It is easier to maintain the single CSS file for the things that are consistent among each page. This also helps to avoid leaving out elements that are critical to your design.
+
+3. Is the code well-structured within files, and well-organized between files and directories?
+    A. If not, suggest some specific improvements
+
+        In general, the code is well structured and easy to read. There are a couple instances where certain tags span multiple lines which is a little confusing but overall it is organized appropriately. I would recommend putting tags on a single line even if they contain multiple attributes just so it is easy to see that the attributes all pretain to the given tag.
+
+4. Did you find any other issues? If so, briefly enumerate them.
+    A. Were semantically appropriate elements selected?
+
+        I think that sematically appropriate elements were selected. You maintained a distinct difference between the HTML and CSS code. You made sure that each element had an id or class and you used that to detremine the formatting rather than formatting directly in the HTML code. 
+        
+        You included a navigation bar and a form which are necessary in a webpage with an informational purpose. You also implemented JavaScript in a way that enhanced the webpage by creating buttons to navigate to the given sections. This added the user experience and allowed me to access the sections without scrolling through the entire page.
+
+    B. Is the CSS refactored to limit duplication?
+
+        Each page has its own CSS file so there is some repetition on pages that have the same backgrounds, etc. It would be better if there was one CSS file that contained the formatting that is applicable to all pages such as the navigation  bar and backgrounds and then separate CSS files for pages that require unique formatting that isn't used on any of the other pages. This way, you only have to write the code once in a general CSS file and you can link it to the other pages when neccessary.
+
+5. Do you have any other constructive comments for the author?
+
+    The only other comment I have is that some of the text runs to the very edge of the page which can make it hard to read. I would suggest adding some padding to keep the text off the border and make it easier to read.
